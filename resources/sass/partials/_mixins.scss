@@ -1,0 +1,17 @@
+@mixin my-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@mixin box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+@mixin d-flex($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}

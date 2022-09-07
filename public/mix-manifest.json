@@ -1,4 +1,9 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/css/_style.css": "/css/_style.css",
+    "/css/_general.css": "/css/_general.css",
+    "/css/_mixins.css": "/css/_mixins.css",
+    "/css/_utilities.css": "/css/_utilities.css",
+    "/css/_variables.css": "/css/_variables.css"
 }

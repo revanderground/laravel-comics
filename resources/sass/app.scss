@@ -1,1 +1,71 @@
-//
+@import "./partials/style";
+@import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+
+header{
+    @include my-container;
+    @include d-flex(space-between, center);
+    height: 88px;
+  
+    .navbar{
+        @include box;
+        .logo-header{
+            width:50px;
+            padding-bottom: 20px;
+           
+        }
+        
+        height: 100%;
+        ul{
+            height: 100%;
+            @include d-flex(center, '');
+            li.text-navtitle{
+                padding-left: 1rem;
+                padding-right: 1rem;
+                height: 80px;
+                font-weight: 700;
+                display:inline-block;
+                text-transform: uppercase;
+                font-family: 'Roboto', sans-serif;
+
+
+           
+                @include d-flex('', center);
+                border-bottom: 4px solid transparent;
+                &.active,
+                &:hover{
+                    border-bottom: 4px solid $secondaryColor;
+                }
+                a{
+                    color: $fontColor;
+                    text-transform: uppercase;
+                    font-size: .8rem;
+                    font-weight: 600;
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+}
+
+splash{
+    background-color: $darkColor;
+}
+
+.main-top{
+    background-color: $darkColor;
+    height:25rem;
+    @include my-container;
+    
+    .box-jumbotron{
+        .jumbotron{
+            height: 25rem;
+            background-image:url("../assets/images/jumbotron.jpg");
+            background-size: cover;
+        }
+    
+    }
+   
+}

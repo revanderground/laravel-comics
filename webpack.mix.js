@@ -13,4 +13,9 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
+    .sass('resources/sass/partials/_style.scss', 'public/css')
+    .sass('resources/sass/partials/_general.scss', 'public/css')
+    .sass('resources/sass/partials/_mixins.scss', 'public/css')
+    .sass('resources/sass/partials/_utilities.scss', 'public/css')
+    .sass('resources/sass/partials/_variables.scss', 'public/css')
     .options({ processCssUrls: false});
