@@ -7,15 +7,15 @@ header{
     @include my-container;
     @include d-flex(space-between, center);
     height: 88px;
-  
+
     .navbar{
         @include box;
         .logo-header{
             width:50px;
             padding-bottom: 20px;
-           
+
         }
-        
+
         height: 100%;
         ul{
             height: 100%;
@@ -30,7 +30,7 @@ header{
                 font-family: 'Roboto', sans-serif;
 
 
-           
+
                 @include d-flex('', center);
                 border-bottom: 4px solid transparent;
                 &.active,
@@ -50,6 +50,8 @@ header{
     }
 }
 
+// jumbotron
+
 splash{
     background-color: $darkColor;
 }
@@ -58,14 +60,85 @@ splash{
     background-color: $darkColor;
     height:25rem;
     @include my-container;
-    
+
     .box-jumbotron{
         .jumbotron{
             height: 25rem;
             background-image:url("../assets/images/jumbotron.jpg");
             background-size: cover;
         }
-    
+
     }
-   
+
 }
+
+//Album section
+
+#DC_Album{
+    background-color: black;
+    height: 35rem;
+
+}
+
+
+.album{
+    @include box;
+    .album-card{
+        width:calc((100% / 6) - 1rem);
+        padding: 3px;
+
+        .wrapper-cards{
+
+            .card-image{
+
+               width:100%;
+               padding:7px;
+               object-fit:contain;
+               overflow:hidden;
+               height: 9rem;
+               border:-1px;
+               transition: 0.5s ease;
+           }
+           .card-image:hover{
+               filter: saturate(0.6) opacity(0.5);
+               cursor: pointer;
+               scale: 1.05;
+           }
+           .card-title{
+               color:white;
+               font-size: 0.8rem;
+               font-weight: 500;
+               text-align:center;
+               text-transform: uppercase;
+               padding-top: 3px;
+           }
+
+        }
+    }
+
+}
+
+a{
+    display: inline-block;
+    color: white;
+    width: 14rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: $secondaryColor;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.load-more{
+    margin-top: 20px;
+}
+
+.load-more:hover{
+    color: rgb(155, 218, 255)
+}
+
+
+

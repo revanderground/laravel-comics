@@ -10931,3 +10931,62 @@ splash {
   background-image: url("../assets/images/jumbotron.jpg");
   background-size: cover;
 }
+
+#DC_Album {
+  background-color: black;
+  height: 35rem;
+}
+
+.album {
+  width: 80%;
+  margin: 0 auto;
+}
+.album .album-card {
+  width: calc(16.6666666667% - 1rem);
+  padding: 3px;
+}
+.album .album-card .wrapper-cards .card-image {
+  width: 100%;
+  padding: 7px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
+  height: 9rem;
+  border: -1px;
+  transition: 0.5s ease;
+}
+.album .album-card .wrapper-cards .card-image:hover {
+  filter: saturate(0.6) opacity(0.5);
+  cursor: pointer;
+  scale: 1.05;
+}
+.album .album-card .wrapper-cards .card-title {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 3px;
+}
+
+a {
+  display: inline-block;
+  color: white;
+  width: 14rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #0282f9;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.load-more {
+  margin-top: 20px;
+}
+
+.load-more:hover {
+  color: rgb(155, 218, 255);
+}

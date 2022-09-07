@@ -19425,75 +19425,15 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/sass/partials/_general.scss":
-/*!***********************************************!*\
-  !*** ./resources/sass/partials/_general.scss ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/sass/partials/_mixins.scss":
-/*!**********************************************!*\
-  !*** ./resources/sass/partials/_mixins.scss ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/sass/partials/_style.scss":
-/*!*********************************************!*\
-  !*** ./resources/sass/partials/_style.scss ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/sass/partials/_utilities.scss":
-/*!*************************************************!*\
-  !*** ./resources/sass/partials/_utilities.scss ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "./resources/sass/partials/_variables.scss":
-/*!*************************************************!*\
-  !*** ./resources/sass/partials/_variables.scss ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ 0:
-/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/partials/_style.scss ./resources/sass/partials/_general.scss ./resources/sass/partials/_mixins.scss ./resources/sass/partials/_utilities.scss ./resources/sass/partials/_variables.scss ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************/
+/*!*************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\Users\vnthu\Desktop\Corso Boolean\laravel-comics\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! C:\Users\vnthu\Desktop\Corso Boolean\laravel-comics\resources\sass\app.scss */"./resources/sass/app.scss");
-__webpack_require__(/*! C:\Users\vnthu\Desktop\Corso Boolean\laravel-comics\resources\sass\partials\_style.scss */"./resources/sass/partials/_style.scss");
-__webpack_require__(/*! C:\Users\vnthu\Desktop\Corso Boolean\laravel-comics\resources\sass\partials\_general.scss */"./resources/sass/partials/_general.scss");
-__webpack_require__(/*! C:\Users\vnthu\Desktop\Corso Boolean\laravel-comics\resources\sass\partials\_mixins.scss */"./resources/sass/partials/_mixins.scss");
-__webpack_require__(/*! C:\Users\vnthu\Desktop\Corso Boolean\laravel-comics\resources\sass\partials\_utilities.scss */"./resources/sass/partials/_utilities.scss");
-module.exports = __webpack_require__(/*! C:\Users\vnthu\Desktop\Corso Boolean\laravel-comics\resources\sass\partials\_variables.scss */"./resources/sass/partials/_variables.scss");
+module.exports = __webpack_require__(/*! C:\Users\vnthu\Desktop\Corso Boolean\laravel-comics\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

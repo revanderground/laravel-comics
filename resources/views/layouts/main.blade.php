@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-        
+
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
 </head>
@@ -14,15 +14,14 @@
 
 
     @include('includes.header')
-    <br><br><br><br>
 
     <main>
         @yield('main-content')
     </main>
-       
-   
+
+
 
     @include('includes.footer')
-    
+
 </body>
 </html>
