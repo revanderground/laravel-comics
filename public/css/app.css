@@ -10934,7 +10934,7 @@ splash {
 
 #DC_Album {
   background-color: black;
-  height: 35rem;
+  height: 33.5rem;
 }
 
 .album {
@@ -10989,4 +10989,26 @@ a {
 
 .load-more:hover {
   color: rgb(155, 218, 255);
+}
+
+.dc-store {
+  background-color: #0282f9;
+}
+.dc-store .box-main {
+  height: 130px;
+}
+.dc-store .box-main ul {
+  width: 80%;
+  margin: 0 auto;
+}
+.dc-store .box-main ul li.store-link {
+  color: white;
+}
+.dc-store .box-main ul li.store-link p {
+  color: white;
+  font-size: 0.81rem;
+  font-weight: 500;
+}
+.dc-store .box-main ul li.store-link img {
+  height: 45px;
 }

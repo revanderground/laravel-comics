@@ -17,9 +17,11 @@
 
     <main>
         @yield('main-content')
+
+
     </main>
 
-
+    @include('includes.store')
 
     @include('includes.footer')
 

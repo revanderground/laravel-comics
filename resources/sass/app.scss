@@ -76,7 +76,7 @@ splash{
 
 #DC_Album{
     background-color: black;
-    height: 35rem;
+    height: 33.5rem;
 
 }
 
@@ -141,4 +141,31 @@ a{
 }
 
 
+//DC STORE
 
+.dc-store{
+
+    background-color:$secondaryColor;
+    .box-main{
+
+        height:130px;
+
+        ul{
+            @include box;
+            li.store-link{
+                color: $primary;
+
+               p{
+                    color:$primary;
+                    font-size: 0.81rem;
+                    font-weight: 500;
+                }
+                img{
+                    height:45px;
+                }
+            }
+
+
+        }
+    }
+}

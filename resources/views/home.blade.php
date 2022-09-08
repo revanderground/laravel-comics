@@ -2,6 +2,8 @@
 
 @extends('layouts.main')
 
+
+
 @section('main-content')
 
 <section id="DC_ALBUM">
@@ -29,9 +31,6 @@
         <a href="#" class="load-more">load more</a>
 
     </div>
-
-
-
 
 </section>
 
