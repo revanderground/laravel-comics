@@ -17,13 +17,11 @@
 
     <main>
         @yield('main-content')
-
-
     </main>
 
     @include('includes.store')
 
-    @include('includes.footer')
+    @include('includes.footer', ['footerLinks' => config('footerElements')])
 
 </body>
 </html>

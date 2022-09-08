@@ -169,3 +169,44 @@ a{
         }
     }
 }
+
+//footer
+
+.footer-nav{
+    height: 17rem;
+    background-image: url("images/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    .footer-content{
+        width: 80%;
+        margin: 0 auto;
+
+        h4{
+            text-transform: uppercase;
+            color:white;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        ul{
+            padding: 0.6rem 0;
+            li.footer-link{
+                font-size: .6rem;
+                a.link-footertitle{
+                    color: #b4b4b4;
+                }
+            }
+        }
+        .footer-bg{
+                width: 40%;
+                object-fit: cover;
+                background-image: url(../assets/img/dc-logo-bg.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+    }
+
+
+
+}

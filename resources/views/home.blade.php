@@ -28,7 +28,7 @@
             </div>
         @endforeach
 
-        <a href="#" class="load-more">load more</a>
+        <a class="button" href="#" class="load-more">load more</a>
 
     </div>
 

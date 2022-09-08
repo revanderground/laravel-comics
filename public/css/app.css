@@ -11012,3 +11012,38 @@ a {
 .dc-store .box-main ul li.store-link img {
   height: 45px;
 }
+
+.footer-nav {
+  height: 17rem;
+  background-image: url("images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-nav .footer-content {
+  width: 80%;
+  margin: 0 auto;
+}
+.footer-nav .footer-content h4, .footer-nav .footer-content .h4 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.footer-nav .footer-content ul {
+  padding: 0.6rem 0;
+}
+.footer-nav .footer-content ul li.footer-link {
+  font-size: 0.6rem;
+}
+.footer-nav .footer-content ul li.footer-link a.link-footertitle {
+  color: #b4b4b4;
+}
+.footer-nav .footer-content .footer-bg {
+  width: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: url(../assets/img/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
